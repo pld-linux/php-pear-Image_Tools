@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Image
-%define         _subclass      	Tools 
+%define		_class		Image
+%define		_subclass	Tools 
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Tool collection for images
-Summary(pl):	%{_pearname} - Zestaw narzêdzi do obrazków
+Summary:	%{_pearname} - tool collection for images
+Summary(pl):	%{_pearname} - zestaw narzêdzi do obrazków
 Name:		php-pear-%{_pearname}
 Version:	0.2
 Release:	1
