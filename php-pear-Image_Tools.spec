@@ -18,7 +18,7 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-gd
 Requires:	php-pear
 Requires:	php-pear-Image_Color >= 1.0.1
-Requires:	php-pear-PEAR >= 1:1.3.3
+Requires:	php-pear-PEAR-core >= 1:1.3.3
 Requires:	php-pear-PHP_Compat >= 1.4.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
