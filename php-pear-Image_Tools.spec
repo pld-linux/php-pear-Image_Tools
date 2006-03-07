@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	45eabb1247e469516de7ecc79b22a8bc
 URL:		http://pear.php.net/package/Image_Tools/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-gd
 Requires:	php-pear
