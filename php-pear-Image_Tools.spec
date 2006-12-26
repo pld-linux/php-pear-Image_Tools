@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Image
 %define		_subclass	Tools
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - tool collection for images
 Summary(pl):	%{_pearname} - zestaw narzêdzi do obrazków
 Name:		php-pear-%{_pearname}
-Version:	0.3.0
-Release:	3
+Version:	0.4.2
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	45eabb1247e469516de7ecc79b22a8bc
+# Source0-md5:	9a342b432fff620fccaff456efdb4803
 URL:		http://pear.php.net/package/Image_Tools/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
