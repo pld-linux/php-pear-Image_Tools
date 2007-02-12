@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - tool collection for images
-Summary(pl):	%{_pearname} - zestaw narzêdzi do obrazków
+Summary(pl.UTF-8):   %{_pearname} - zestaw narzÄ™dzi do obrazkÃ³w
 Name:		php-pear-%{_pearname}
 Version:	0.4.2
 Release:	1
@@ -30,8 +30,8 @@ A collection of common image manipulations.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Zestaw powszechnie u¿ywanych funkcji do manipulacji obrazkami.
+%description -l pl.UTF-8
+Zestaw powszechnie uÅ¼ywanych funkcji do manipulacji obrazkami.
 
 Ta klasa ma w PEAR status: %{_status}.
 
