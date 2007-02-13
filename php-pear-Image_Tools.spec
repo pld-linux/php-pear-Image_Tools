@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - tool collection for images
-Summary(pl.UTF-8):   %{_pearname} - zestaw narzędzi do obrazków
+Summary(pl.UTF-8):	%{_pearname} - zestaw narzędzi do obrazków
 Name:		php-pear-%{_pearname}
 Version:	0.4.2
 Release:	1
