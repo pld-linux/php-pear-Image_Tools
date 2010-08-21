@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 %define		subver	RC1
-%define		rel		1
+%define		rel		2
 Summary:	%{_pearname} - tool collection for images
 Summary(pl.UTF-8):	%{_pearname} - zestaw narzędzi do obrazków
 Name:		php-pear-%{_pearname}
@@ -15,10 +15,10 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{subver}.tgz
 # Source0-md5:	8db5b93e8a2d61d7e494ccef8fef4e7b
 URL:		http://pear.php.net/package/Image_Tools/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php(gd)
+Requires:	php-gd
 Requires:	php-pear
 Requires:	php-pear-Image_Color >= 1.0.1
 Requires:	php-pear-PEAR-core >= 1:1.4.0
