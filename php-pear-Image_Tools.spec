@@ -1,10 +1,10 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Image
 %define		_subclass	Tools
 %define		_status		beta
-%define		_pearname	%{_class}_%{_subclass}
+%define		_pearname	Image_Tools
 %define		subver	RC1
-%define		rel		2
+%define		rel		3
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - tool collection for images
 Summary(pl.UTF-8):	%{_pearname} - zestaw narzędzi do obrazków
 Name:		php-pear-%{_pearname}
@@ -18,7 +18,7 @@ URL:		http://pear.php.net/package/Image_Tools/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-gd
+Requires:	php(gd)
 Requires:	php-pear
 Requires:	php-pear-Image_Color >= 1.0.1
 Requires:	php-pear-PEAR-core >= 1:1.4.0
@@ -55,8 +55,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
-%dir %{php_pear_dir}/%{_class}/%{_subclass}
-%{php_pear_dir}/%{_class}/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}/*.php
+%dir %{php_pear_dir}/Image/Tools
+%{php_pear_dir}/Image/*.php
+%{php_pear_dir}/Image/Tools/*.php
 
 %{_examplesdir}/%{name}-%{version}
