@@ -4,7 +4,6 @@
 %define		_pearname	Image_Tools
 %define		subver	RC1
 %define		rel		3
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - tool collection for images
 Summary(pl.UTF-8):	%{_pearname} - zestaw narzędzi do obrazków
 Name:		php-pear-%{_pearname}
