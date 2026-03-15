@@ -3,7 +3,7 @@
 %define		_status		beta
 %define		_pearname	Image_Tools
 %define		subver	RC1
-%define		rel		3
+%define		rel		4
 Summary:	%{_pearname} - tool collection for images
 Summary(pl.UTF-8):	%{_pearname} - zestaw narzędzi do obrazków
 Name:		php-pear-%{_pearname}
